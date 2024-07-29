@@ -10,7 +10,7 @@ export async function renderTable(arrayTable: DataTable, currentPage: number, re
 
     return `
         <div class="table-responsive">
-            <table class="table table-striped table-bordered table-hover">
+            <table class="table table-success table-striped-columns">
                 <thead class="bg-primary text-white">
                     <tr>
                         ${columNames.map(colName => `
