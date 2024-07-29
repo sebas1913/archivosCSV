@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                                  
+    "lib": ["ES2017", "DOM"],                                     
+    "module": "ES6",                                
+    "rootDir": "./src",                                                                 
+    "outDir": "./public/components",                                   
+    "esModuleInterop": true,                            
+    "forceConsistentCasingInFileNames": true,            
+    "strict": true,                                    
+    "skipLibCheck": true                                
+  }
+}
